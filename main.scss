@@ -1,0 +1,122 @@
+body {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+}
+a {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: underline;
+  color: #73808d;
+  &:hover {
+    text-decoration: none;
+    transition: all 0.3s;
+    color: #101214;
+  }
+}
+.container {
+  max-width: 60%;
+}
+.header {
+  padding-top: 44px;
+  padding-bottom: 32px;
+  &__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+  }
+  &__subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #73808d;
+  }
+}
+// .photo {
+//   margin: 14px 0;
+// }
+.left-block .content {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+}
+.content {
+  &__title {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #73808d;
+  }
+  &-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  &-list__item {
+    margin-bottom: 20px;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  &-list__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #101214;
+    margin-bottom: 4px;
+  }
+  &-list__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #101214;
+    display: block;
+    margin-bottom: 4px;
+    display: block;
+  }
+  &-list__date {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+    color: #73808d;
+    margin-bottom: 8px;
+    display: block;
+  }
+  &-list__desc {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 4px;
+  }
+}
+.right-block {
+  .content-block {
+    margin-bottom: 20px;
+    color: #73808d;
+    a {
+      display: block;
+      margin-bottom: 4px;
+    }
+    h5 {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 18px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 18px;
+      margin-bottom: 4px;
+    }
+  }
+}
+.main {
+  padding-bottom: 40px;
+}
